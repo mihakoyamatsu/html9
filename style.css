@@ -60,3 +60,18 @@ main {
 .title {
   margin: 15px 0 5px;
 }
+
+/* 768px以下の際に適用される設定 */
+@media screen and (max-width:768px) {
+  main {
+    width: 100%;
+  }
+  .step-box {
+    width: 90%;
+    margin: 0 auto !important;
+    float: none;
+  }
+  .step-box:nth-child(2) {
+    margin: 20px auto !important;
+  }
+}
